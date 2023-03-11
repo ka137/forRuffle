@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+}
+body{
+    background-color: #1A1A1A;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.container {
+    max-width: 880px;
+    margin: 40px auto;
+}
+.text{
+    position: relative;
+}
+.en{
+    transition: 0.4s;
+    position: absolute;
+}
+.ru{
+    transition: 0.4s;
+    opacity: 0;
+}
+.text:hover .ru{
+    opacity: 1;
+}
+.text:hover .en{
+    opacity: 0;
+}
